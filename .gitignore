@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+out/
+build/
+release/
+
+# Electron
+*.asar
+*.exe
+*.app
+*.dmg
+*.snap
+
+# Vite ou CRA 
+.vite/
+.vscode/
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Others
+coverage/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Electron builder cache
+.electron-builder/
